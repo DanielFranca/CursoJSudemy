@@ -19,3 +19,5 @@ function criarUsuario() {
 }
 
 console.log(criarUsuario())
+
+// funçaõ que retorna como resposta um objeto
