@@ -18,7 +18,7 @@ class CicloFinanceiro {
 
     sumario(){
         let valorConsolidado = 0
-        this.lancamento.forEach(l => {
+        this.lancamentos.forEach(l => {
             valorConsolidado += l.valor  // Para cada um dos lançamentos ele vai lancar o valor consolidado
         })
         return valorConsolidado
@@ -29,5 +29,5 @@ const contaDeLuz = new Lancamento('Luz', -220)
 
 const contas = new CicloFinanceiro(6, 2018)
 contas.addLancamentos(salario, contaDeLuz)
-console.log(sumario())
+console.log(contas.sumario())
 
