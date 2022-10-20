@@ -24,4 +24,11 @@ const getNotasDaTurma = turma => turma.aluno.map(getNotaDoAluno)
 const nota1 = escola.map(getNotaDoAluno)
 console.log(nota1)
 
-console.log([].concat)
+console.log([].concat([8.1, 9.3], [8.9, 7.3]))
+
+Array.prototype.flatMap = function(callback) {
+    return Array.prototype.concat.apply([], this.map(callback))
+}
+
+const nota2 = escola.flatMap(getNotasDaTurma)
+console.log(nota2)
