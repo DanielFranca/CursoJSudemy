@@ -1,9 +1,9 @@
 const pilotos = ['Vettel', 'Alonso', 'Raikkonen', 'Massa']
-pilotos.pop() // massa quebrou o carro --- exclui o ultimo indice do array
+pilotos.pop() // exclui o ultimo indice do array
 console.log(pilotos)
 
 pilotos.push('Verstappen')
-console.log(pilotos) // Verstappen entrou para o teste de jovens pilotos --- adiciona verstappen ao último indice do array
+console.log(pilotos) //  adiciona verstappen ao último indice do array
 
 pilotos.shift() //remove o primeiro indice do array
 console.log(pilotos) 
