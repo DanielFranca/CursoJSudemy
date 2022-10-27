@@ -10,7 +10,7 @@ console.log(produtos.filter(function(p) {
 }))
 
 
-const caro = produto => produto.preco >=500
-const fragil = produto => produto.fragil
+const caro = produto => produtos.preco >=500
+const fragil = produto => produtos.fragil
 
 console.log(produtos.filter(caro).filter(fragil))
