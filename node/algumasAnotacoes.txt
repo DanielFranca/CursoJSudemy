@@ -1,0 +1,12 @@
+Node JS
+
+- Provê a possibilidade de executar o JS no servidor, além de executar no browser;
+- Possibilidade de gerar webservices;
+- Fundado por Ryan Dahl;
+- Apache -  Servidor baseado em thread, cada requisição que chega no apache ele cria uma
+    thread para tratar essa requisição.
+- O node é um runtime JS e ele é formado por duas partes pelo V8 que é um interpretador de JavaScript
+de código aberto do google + LyrioV que trata de forma assíncrona a parte mais lenta do processo que é
+acessar o baco de dados, acessar o arquivo...
+- Em node um arquivo representa um módulo.
+- NPM: Node Package Management = Gerenciador de Pacotes no Node.
