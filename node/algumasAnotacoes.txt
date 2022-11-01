@@ -10,3 +10,4 @@ de código aberto do google + LyrioV que trata de forma assíncrona a parte mais
 acessar o baco de dados, acessar o arquivo...
 - Em node um arquivo representa um módulo.
 - NPM: Node Package Management = Gerenciador de Pacotes no Node.
+- Lodash - é uma biblioteca
