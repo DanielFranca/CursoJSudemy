@@ -11,3 +11,21 @@ acessar o baco de dados, acessar o arquivo...
 - Em node um arquivo representa um módulo.
 - NPM: Node Package Management = Gerenciador de Pacotes no Node.
 - Lodash - é uma biblioteca
+
+
+Padrão middleware: (chain of responsibility)
+
+
+Middleware A                Middleware B                Middleware C
+    next()      ----->             next()    ------>          next()  
+    request                     response                         |
+                                                                 |
+                                                                 |
+                                                            envia a resposta
+                                                            (ou não)
+
+- Posso trocar a sequencia dos passos;
+- Chain of responsibility (Cadeia de responsabilidade)
+- Cada passo a gente chama de Midlleware por isso temos essa sequencia de passos independentes no qual a gente passa uma função (next()) 
+e essa função quando chamada dispara o próximo passo da cadeia. Se por algum motivo dentro do passo voce não quer disparar o próximo passo
+voe não chama o next, e ai a cadeia é interrompida. 
