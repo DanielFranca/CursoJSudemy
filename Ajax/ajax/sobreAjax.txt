@@ -1,0 +1,7 @@
+Ajax = Asynchronus JavaScript And Xml
+
+- É uma técnica usada com JavaScript
+- Atualiza a página (ou parte dela) sem recarregar (reload)
+- Coomunica de forma assíncrona com um Servidor Web, ou seja, envia envia
+e recebe dados em background
+- Usa muito.. callback, Promise, Async 
